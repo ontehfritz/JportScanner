@@ -1,0 +1,31 @@
+JPortScanner alpha v0.3
+__________________________
+Requirements:
+
+JRE 1.4.x or Java SDK 1.4.x get it at ----> www.javasoft.com 
+
+Running the port Scanner:
+
+Go to the directory of the file and ----
+
+*nix:
+1.In console window type: java -jar <filename> 
+
+Windows:
+1. In console window type java: -jar <filename>
+2. If you aren't a butt head and set up the jre right you should be able to double click the jar file
+just as you would an executable.
+
+XP or 98 WARNING: I have found the speed issue that is on some versions of M$ windows! It is how it handles
+multi-threading. In release 0.4a this will no longer be an issue.
+
+(JPortScanner does not run optimized on XP and 98. Actually it runs like shit on XP compared to *nix
+this is NOT because of java, other port scanners I have tried run slow as well it has something to do with 
+settings in XP/98 and I hope to resolve this issue soon!)
+
+Next Release v0.4a 
+_______________________
+1.Improved user interface(again)
+2.Port Debugging/description(in this version for sure)
+3.Fix the small bugs I know are there
+4.Improve threading for windows(fucking M$)
